@@ -4,6 +4,7 @@
   "description": "solex bot for ordering coffee",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jest"
   },
   "author": "Max Foo & Sheng Yunzhou",
