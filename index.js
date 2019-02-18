@@ -1,7 +1,7 @@
 const Telegraf = require("telegraf");
 
 const PORT = process.env.PORT || 3000;
-const URL = process.env.URL || "https://heroku-app-name.herokuapp.com";
+const URL = process.env.URL || "https://cs-solex-bot.herokuapp.com";
 const API_TOKEN = "630082018:AAEPN7VB-Lhg8qY_ye5BXEdecen0UASYt6g";
 const bot = new Telegraf(API_TOKEN);
 
