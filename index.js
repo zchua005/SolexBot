@@ -7,7 +7,7 @@ const bot = new Telegraf(API_TOKEN);
 
 bot.use(Telegraf.log());
 
-bot.help(({ reply }) => reply("Hello!"));
+bot.help(({ reply }) => reply("Hello I'm the Solex Bot"));
 
 const coffeeOrderSessions = [];
 
