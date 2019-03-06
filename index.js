@@ -1,3 +1,4 @@
+require('newrelic');
 const Telegraf = require("telegraf");
 
 const PORT = process.env.PORT || 3000;
