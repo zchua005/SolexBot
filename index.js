@@ -2,8 +2,8 @@ require('newrelic');
 const Telegraf = require("telegraf");
 
 const PORT = process.env.PORT || 3000;
-const URL = process.env.URL || "https://cs-solex-bot.herokuapp.com";
-const API_TOKEN = "630082018:AAEPN7VB-Lhg8qY_ye5BXEdecen0UASYt6g";
+const URL = process.env.URL || "https://solexchris.herokuapp.com/";
+const API_TOKEN = "793236794:AAF9iFbvzhqu6NUHYvRjrtyU040V2yi_rOQ";
 const bot = new Telegraf(API_TOKEN);
 
 bot.use(Telegraf.log());
